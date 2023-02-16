@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="../css/pagina_de_cine.css">
+    <title>Películas de los años 80</title>
+</head>
+
+<body>
+    <header>
+        <h1>Películas de los años 80</h1>
+        <nav>
+            <ul>
+                <li><a href="#destacadas">Destacadas</a></li>
+                <li><a href="#generos">Géneros</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="destacadas">
+            <h2>Películas destacadas</h2>
+            <ul>
+                <li>
+                    <h3>Regreso al futuro</h3>
+                    <img src="../img/backtothefuture.jpg"
+                        alt="Regreso al futuro">
+                    <p>Aventuras en el tiempo con Marty McFly y el doctor Emmett Brown.</p>
+                </li>
+                <li>
+                    <h3>E.T. el extraterrestre</h3>
+                    <img src="../img/et.jpg" alt="E.T. el extraterrestre" width=50% height=50%>
+                    <p>La amistad entre un niño y un extraterrestre perdido en la Tierra.</p>
+                </li>
+                <li>
+                    <h3>Indiana Jones y la última cruzada</h3>
+                    <img src="../img/indiana.jpg"
+                        alt="Indiana Jones y la última cruzada">
+                    <p>Las aventuras del arqueólogo Indiana Jones en busca de la última cruzada.</p>
+                </li>
+            </ul>
+        </section>
+
+        <section id="generos">
+
+            <h2>Géneros</h2>
+            <a href="salas_horarios.html">Acción</a>
+            <a href="salas_horarios.html">Comedia</a>
+            <a href="salas_horarios.html">Drama</a>
+            <a href="salas_horarios.html">Fantasía</a>
+            <a href="salas_horarios.html">Ciencia ficción</a>
+        </section>
+        <section id="contacto">
+            <h2>Contacto</h2>
+            <form action="enviar-mensaje.php" method="post">
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre">
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email">
+
+                <label for="mensaje">Mensaje:</label>
+                <textarea id="mensaje" name="mensaje"></textarea>
+
+                <input type="submit" value="Enviar mensaje">
+            </form>
+        </section>
+    </main>
+</body>
+
+</html>
